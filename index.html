@@ -1,0 +1,40 @@
+<html>
+ <head>
+     <meta charset="UTF-8">
+     <title>이번 방학에는..</title>
+
+ <head>
+  <body bgcolor="#FFFFFF">
+  
+  <input type="text" placeholder="OO아.." >
+  <br> <h2> 이번 방학에는 <h2>
+    <p style="font-family: Gungsuh">
+  <script language="JavaScript">
+
+    function random_text()
+    {};
+    var random_text = new random_text();
+    // Set the number of text strings to zero to start
+    var number = 0;
+    // Incremental list of all possible Text
+    random_text[number++] = "머리 잘 감기로 했잖아"
+    random_text[number++] = "야식 덜 먹기로 했잖아"
+    random_text[number++] = "2학기 예습 하기로 했잖아"
+    random_text[number++] = "롤 줄이기로 했잖아"
+    random_text[number++] = "담배 덜 피우기로 했잖아"
+    // Create a random number with limits based on the number
+    // of possible random text strings
+    var random_number = Math.floor(Math.random() * number);
+    // Write out the random text to the browser
+    document.write(random_text[random_number]);
+  </script>
+
+  <p>    
+    <button> <a href="javascript:history.go(0);">다른 문구</a>   </button>
+      <a href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://www.example.com&p[images][0]=&p[title]=Title%20Goes%20Here&p[summary]=Description%20goes%20here!" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false"><button style="width:200px; margin-top:10px;" type="button" class="btn btn-facebook btn-lg"><i class="fa fa-facebook fa-2"></i> Share on Facebook</button></a>
+</p>
+</body>
+</html>
+
+
+
