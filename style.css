@@ -1,12 +1,13 @@
 html, body {
-    height: 100%;
+    height: 100% ;
+    font-family : gulim ;
 }
 
 html {
     display: table;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 body {
     display: table-cell;
     vertical-align: middle;
@@ -21,4 +22,10 @@ body {
 }
 .btn-facebook:focus {
 	color: #fff;
+}
+#friendname {
+  width : 70% ;
+  border : 0px ;
+  height : 35px ;
+  font-size : 30px ;
 }
